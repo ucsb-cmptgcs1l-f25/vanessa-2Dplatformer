@@ -1,7 +1,8 @@
 # Testing Library Used
 Unity Testing Framework 
-# Approaches
 # Unit Testing
 EditMode in Unity: EditMode is able to run the small logic-based code that tests particular functions. You aren't supposed to create Gameobjects, but as it is only to test if a function produces the right outcome. I ran a unit test that checked my timer was working and counting down correctly. My logic was done in a script named Countdown, which counts down from 60 seconds. My test passed, showing that my Countdown script works correctly.
 # Component Testing
 Playmode in Unity: Playmode is able to simulate when I hit run in my game. I am able to create game objects and build my scripts with them, leading to the "component testing" portion. I have created a test where it checks the player respawn component. Using my PlayerRespawn script, I wrote a unity test where the player is automatically placed in the same position as my fall detector collider, which should respawn my player back to the original starting point if working correctly. I am essentially checking what the player's final position is after the collider is at the same position as my player. My test passes, showing my PlayerRespawn script works correctly.
+# Difficulties/Approaches
+One difficulty in particular I had was referencing the script I wanted to test on. I had to create a separate test folder under assets and reference from my scripts folder through testing scripts. The issue was that my testing scripts could not find my scripts folder and all my scripts defined in it. I realized the issue was from the different assemblies created. Unity has my scripts folder in run-time assembly, while my test scripts were running on test assemblies. In order to link them, I had to create assembly files in the testing folder and script folder, and link them together through the inspector.
