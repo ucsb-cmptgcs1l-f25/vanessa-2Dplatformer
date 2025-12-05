@@ -1,4 +1,4 @@
-# 2D Platform Adventure
+# SproutCast
 App Type: 2D Platformer Tech Stack: Unity (C#), using the Unity 2D Engine, Jetbrains Rider, Rigidbody2D physics, and custom scripts for resource collection and bridge-building mechanics
 
 # Tech Stack
