@@ -70,10 +70,13 @@ The primary goals of Sproutcast were to design interactive and strategic gamepla
          The Movement script interacts with the GrabObject script, as GrabObject creates a component of the Movement class. The Movement class holds the logic of changing each speed based on the tagged object. Each object is given their own specific tag in the inspector which can be called and used in scripts. I use a switch statement that checks all the tags of possible pickable objects, assigning different speeds accordingly. Then, in the GrabObject script when the object is grabbed, it calls the function from the Movement class and sets the proper parameter of what the current held object is. The mushroom and ice shard are both the fastest, since they last the shortest on the bridge. Likewise, the glacier and bush are the second fastest, and the ice chunk and wood are the slowest. This helps bring in the strategic component of the game, since the goal is to build starting with the wood/ice chunk, and add the mushroom and ice shard as the last few. This way, the bridge will stay intact for longer without having to constantly rebuild.
        </p>
       <li>
-  Limited lives (3)
+  Limited lives (3) and Timer
         <div>
   <img src="images/lives.png" alt="Three lives HUD" style="width: 120px; margin-left: 5px;">
         </div>
+        <p>
+          I used the Canvas feature to add images and text that stay on the screen despite where the camera is following the player. Because my game uses CinemachineCamera, it follows the player to create an "infinite background" effect. I add sprite images of hearts, as well as a timer on the bottom left of the screen that counts down from 90 seconds. In order to get the time, I needed to use Time.delta in my logic. Once the timer runs out, one life will get subtracted each time and any object the player was holding will be dropped as they are restarted back to the beginning (the bridge still saves progress however).
+        </p>
 </li>
         <li>
           Disappearing objects on the bridge
