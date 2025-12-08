@@ -81,7 +81,8 @@ The primary goals of Sproutcast were to design interactive and strategic gamepla
     <img src="images/disappearedobjects.png" alt="Three lives HUD" style="width: 120px; margin-left: 5px;">
     </div>
           <p>
-            Objects will slowly fade away on the bridge...
+            Objects will slowly fade away on the bridge in order to trigger some warning to the user that their bridge is beginning to disassemble. With the objects disappearing on the bridge, it adds extra level of difficulty with the time pressure. This forces the user to build the bridge more strategically, in order to reach the other side efficiently. In implementing the fade-out effect, I adapted logic from a StackOverflow discussion by Hexodus on gradually fading a GameObject. They used a renderer to get the color of each object, as well as the equation alphaValue -= Time.deltaTime / fadeSpeed. It was placed in a loop to continuously subtract some of the color out of the object, creating a "fade" effect.
+
           </p>
 </li>
         <li>
