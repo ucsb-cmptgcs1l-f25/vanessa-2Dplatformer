@@ -55,7 +55,7 @@ The primary goals of Sproutcast were to design interactive and strategic gamepla
     </p>
      <ul>
   <li>
-    <strong>Physics-based object picking and placing</strong>
+    <strong>Physics-based Object Picking and Placing</strong>
     <div>
     <img src="images/pickupimage.png" alt="Three lives HUD" style="width: 120px; margin-left: 5px;">
     </div>
@@ -64,13 +64,13 @@ The primary goals of Sproutcast were to design interactive and strategic gamepla
          In order for the player to interact with each object, there had to be collision detection, which requires Collider2D and Rigidbody2D attached to each object. I attached a GroundCheck, RayPosition, and GrabPosition object to my player in order to manage specific interactions. For example, GroundCheck determines when the player is standing on a surface, enabling jumping and stable movement. RayPosition is used for raycasting to detect objects in front of the player for interactions. GrabPosition defines the location where objects are held when picked up, ensuring that the object moves with the player while carrying them.
        </p>
   <li>
-    <strong>Player movement variation based on carried objects</strong>
+    <strong>Player Movement Variation Based on Carried Objects</strong>
 </li>
        <p>
          The Movement script interacts with the GrabObject script, as GrabObject creates a component of the Movement class. The Movement class holds the logic of changing each speed based on the tagged object. Each object is given their own specific tag in the inspector which can be called and used in scripts. I use a switch statement that checks all the tags of possible pickable objects, assigning different speeds accordingly. Then, in the GrabObject script when the object is grabbed, it calls the function from the Movement class and sets the proper parameter of what the current held object is. The mushroom and ice shard are both the fastest, since they last the shortest on the bridge. Likewise, the glacier and bush are the second fastest, and the ice chunk and wood are the slowest. This helps bring in the strategic component of the game, since the goal is to build starting with the wood/ice chunk, and add the mushroom and ice shard as the last few. This way, the bridge will stay intact for longer without having to constantly rebuild.
        </p>
       <li>
-  <strong>Limited lives (3) and Timer</strong>
+  <strong>Limited Lives (3) and Timer</strong>
         <div>
   <img src="images/lives.png" alt="Three lives HUD" style="width: 120px; margin-left: 5px;">
         </div>
@@ -79,7 +79,7 @@ The primary goals of Sproutcast were to design interactive and strategic gamepla
         </p>
 </li>
         <li>
-          <strong>Disappearing objects on the bridge</strong>
+          <strong>Disappearing Objects on the Bridge</strong>
           <div>
     <img src="images/disappearedobjects.png" alt="Three lives HUD" style="width: 120px; margin-left: 5px;">
     </div>
@@ -89,19 +89,19 @@ The primary goals of Sproutcast were to design interactive and strategic gamepla
           </p>
 </li>
         <li>
-    <strong>Random spawned objects on platform</strong>
+    <strong>Random Spawned Objects on Platform</strong>
         </li>
        <p>
          Objects are spawned randomly to add an element of variation each time the game is played so everything is always changed and not the same layout. At times, it could spawn many more mushrooms or ice shards, forcing the player to use them to build the bridge first and having to replace them with longer-lasting objects later on.
        </p>
         <li>
-    <strong>Spikes in the environment</strong>
+    <strong>Spikes in the Environment</strong>
 </li>
        <p>
          The spikes add an extra level of difficulty when the player is walking. They have to remember to jump over and avoid each spike which has a collider attached to it. Once the player comes into contact with the spike's collider, it will respawn the player, dropping any object they had. This is another way to lose a life in the game.
        </p>
         <li>
-          <strong>Sound effects</strong>
+          <strong>Sound Effects</strong>
         </li>
        <p>
          There is constant background music when played, as well as a "beeping" noise everytime an object is picked up. I use the audio component and attach my downloaded audio clips in the inspector. In my GrabObject script, I only play the beeping audio when any object of any tag is picked up.
