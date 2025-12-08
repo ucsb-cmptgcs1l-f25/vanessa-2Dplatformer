@@ -95,7 +95,7 @@ The primary goals of Sproutcast were to design interactive and strategic gamepla
     <strong>Random Spawned Objects on Platform</strong>
         </li>
        <p>
-         Objects are spawned randomly to add an element of variation each time the game is played so everything is always changed and not the same layout. At times, it could spawn many more mushrooms or ice shards, forcing the player to use them to build the bridge first and having to replace them with longer-lasting objects later on.
+         Objects are spawned randomly to add an element of variation each time the game is played so everything is always changed and not the same layout. At times, it could spawn many more mushrooms or ice shards, forcing the player to use them to build the bridge first and having to replace them with longer-lasting objects later on. I used StartCoroutine as well as IEnumerator calls and functions in order to force Unity to run the coroutine across several frames, waiting until certain conditions are met, instead of mass spawning many objects at once. They allow the game to pause execution using yield return, allowing for pacing and timed events to occur.
        </p>
        
         <li>
