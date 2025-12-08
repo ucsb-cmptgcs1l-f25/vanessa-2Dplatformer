@@ -61,7 +61,7 @@ The primary goals of Sproutcast were to design interactive and strategic gamepla
     </div>
 </li>
        <p>
-         The purpose...
+         In order for the player to interact with each object, there had to be collision detection, which requires Collider2D and Rigidbody2D attached to each object. I attached a GroundCheck, RayPosition, and GrabPosition object to my player in order to manage specific interactions. For example, GroundCheck determines when the player is standing on a surface, enabling jumping and stable movement. RayPosition is used for raycasting to detect objects in front of the player for interactions. GrabPosition defines the location where objects are held when picked up, ensuring consistent positioning and movement while carrying them.
        </p>
 
   <li>
