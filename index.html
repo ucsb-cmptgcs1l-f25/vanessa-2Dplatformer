@@ -75,7 +75,7 @@ The primary goals of Sproutcast were to design interactive and strategic gamepla
   <img src="images/lives.png" alt="Three lives HUD" style="width: 120px; margin-left: 5px;">
         </div>
         <p>
-          I used the Canvas feature to add images and text that stay on the screen despite where the camera is following the player. Because my game uses CinemachineCamera, it follows the player to create an "infinite background" effect. I add sprite images of hearts, as well as a timer on the bottom left of the screen that counts down from 90 seconds. In order to get the time, I needed to use Time.delta in my logic. Once the timer runs out, one life will get subtracted each time and any object the player was holding will be dropped as they are restarted back to the beginning (the bridge still saves progress however).
+          I used the Canvas feature to add images and text that stay on the screen despite where the camera is following the player. Because my game uses CinemachineCamera, it follows the player to create an "infinite background" effect which is why a Canvas was necessary. I add sprite images of hearts, as well as a timer on the bottom left of the screen that counts down from 90 seconds. In order to get the time, I needed to use Time.delta in my logic. Once the timer runs out, one life will get subtracted each time and any object the player was holding will be dropped as they are restarted back to the beginning (the bridge still saves progress however).
         </p>
 </li>
         <li>
