@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 98d31c255418247f18f1a1bd32ada98a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1303355352364318073
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_0
+  - first:
+      213: 6721888362186903468
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_1
+  - first:
+      213: 450479050815340628
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_2
+  - first:
+      213: -5915079209156648763
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_3
+  - first:
+      213: 8218322164500389
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_4
+  - first:
+      213: 777252399017302399
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_5
+  - first:
+      213: 5462733195866613062
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_6
+  - first:
+      213: -6007815578667028770
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_7
+  - first:
+      213: 4204315250729514490
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_8
+  - first:
+      213: 8704052460230952230
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_9
+  - first:
+      213: 4497579868182222853
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_10
+  - first:
+      213: 337643364845528265
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_11
+  - first:
+      213: -2139425177697607124
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_12
+  - first:
+      213: 5311108797392390763
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_13
+  - first:
+      213: -5587992549049447495
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_14
+  - first:
+      213: -8444572410550072283
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_15
+  - first:
+      213: -835968786314244438
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_16
+  - first:
+      213: 6755280717638343535
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_17
+  - first:
+      213: 1340005626896537616
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_18
+  - first:
+      213: -2552801290776249294
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_19
+  - first:
+      213: 8088987767185838074
+    second: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 217
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d77c999c2761210800000000000000
+      internalID: 1303355352364318073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 216
+        width: 74
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf8bffe9d1f84d50800000000000000
+      internalID: 6721888362186903468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 218
+        width: 110
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4508a9a5f4c604600800000000000000
+      internalID: 450479050815340628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 213
+        width: 94
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c06be77cca69eda0800000000000000
+      internalID: -5915079209156648763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 152
+        width: 92
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7c34d35823d1000800000000000000
+      internalID: 8218322164500389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 154
+        width: 116
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f791f3850fa59ca00800000000000000
+      internalID: 777252399017302399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 79
+        width: 59
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6452d5a16e68fcb40800000000000000
+      internalID: 5462733195866613062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 139
+        width: 129
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede6e7ddf83ff9ca0800000000000000
+      internalID: -6007815578667028770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 83
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af57d73f17ab85a30800000000000000
+      internalID: 4204315250729514490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 103
+        width: 83
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6254e66b8910bc870800000000000000
+      internalID: 8704052460230952230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 64
+        width: 69
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50813f79f0d9a6e30800000000000000
+      internalID: 4497579868182222853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 73
+        width: 74
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4a266f9dc8fa400800000000000000
+      internalID: 337643364845528265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 26
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22aec3d22c3f42e0800000000000000
+      internalID: -2139425177697607124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 48
+        width: 67
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a8600df49d4b940800000000000000
+      internalID: 5311108797392390763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 28
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bbc06212667372b0800000000000000
+      internalID: -5587992549049447495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 26
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c4915422adeca80800000000000000
+      internalID: -8444572410550072283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 31
+        width: 112
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaecc6861da0664f0800000000000000
+      internalID: -835968786314244438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 3
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b11ec85049fbd50800000000000000
+      internalID: 6755280717638343535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 3
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018513c9408a89210800000000000000
+      internalID: 1340005626896537616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 2
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c7f1950c0a29cd0800000000000000
+      internalID: -2552801290776249294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 3
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff8797548bd14070800000000000000
+      internalID: 8088987767185838074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_0: 1303355352364318073
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_1: 6721888362186903468
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_10: 4497579868182222853
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_11: 337643364845528265
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_12: -2139425177697607124
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_13: 5311108797392390763
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_14: -5587992549049447495
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_15: -8444572410550072283
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_16: -835968786314244438
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_17: 6755280717638343535
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_18: 1340005626896537616
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_19: -2552801290776249294
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_2: 450479050815340628
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_20: 8088987767185838074
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_3: -5915079209156648763
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_4: 8218322164500389
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_5: 777252399017302399
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_6: 5462733195866613062
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_7: -6007815578667028770
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_8: 4204315250729514490
+      cartoon-ice-glacier-crystals-pieces-260nw-2153691259-removebg-preview_9: 8704052460230952230
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
