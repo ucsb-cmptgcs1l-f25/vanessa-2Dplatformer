@@ -60,7 +60,7 @@ The primary goals of Sproutcast were to design interactive and strategic gamepla
   <li>
     <strong>Physics-based Object Picking, Dropping, and Placing</strong>
     <div>
-    <img src="images/pickupimage.png" alt="Three lives HUD" style="width: 120px; margin-left: 5px;">
+    <img src="images/pickupimage.png" alt="Three lives HUD" style="width: 250px; margin-left: 5px;">
     </div>
 </li>
        <p>
@@ -75,7 +75,7 @@ The primary goals of Sproutcast were to design interactive and strategic gamepla
       <li>
   <strong>Limited Lives (3) and Timer</strong>
         <div>
-  <img src="images/lives.png" alt="Three lives HUD" style="width: 120px; margin-left: 5px;">
+  <img src="images/lives.png" alt="Three lives HUD" style="width: 250px; margin-left: 5px;">
         </div>
         <p>
           I used the Canvas feature to add images and text that stay on the screen despite where the camera is following the player. Because my game uses CinemachineCamera, it follows the player to create an "infinite background" effect which is why a Canvas was necessary. I add sprite images of hearts, as well as a timer on the bottom left of the screen that counts down from 90 seconds. In order to get the time, I needed to use Time.delta in my logic. Once the timer runs out, one life will get subtracted each time and any object the player was holding will be dropped as they are restarted back to the beginning (the bridge still saves progress however).
@@ -84,7 +84,7 @@ The primary goals of Sproutcast were to design interactive and strategic gamepla
         <li>
           <strong>Disappearing Objects on the Bridge</strong>
           <div>
-    <img src="images/disappearedobjects.png" alt="Three lives HUD" style="width: 120px; margin-left: 5px;">
+    <img src="images/disappearedobjects.png" alt="Three lives HUD" style="width: 250px; margin-left: 5px;">
     </div>
           <p>
             Objects will slowly fade away on the bridge in order to trigger some warning to the user that their bridge is beginning to disassemble. With the objects disappearing on the bridge, it adds extra level of difficulty with the time pressure. This forces the user to build the bridge more strategically, in order to reach the other side efficiently. In implementing the fade-out effect, I adapted logic from a StackOverflow discussion by Hexodus on gradually fading a GameObject. They used a renderer to get the color of each object, as well as the equation alphaValue -= Time.deltaTime / fadeSpeed. It was placed in a loop to continuously subtract some of the color out of the object, creating a "fade" effect.
@@ -101,9 +101,9 @@ The primary goals of Sproutcast were to design interactive and strategic gamepla
         <li>
     <strong>Spikes in the Environment</strong>
           <div>
-    <img src="images/woodspike.png" alt="Three lives HUD" style="width: 120px; margin-left: 5px;">
+    <img src="images/woodspike.png" alt="Three lives HUD" style="width: 250px; margin-left: 5px;">
             
-    <img src="images/icespike.png" alt="Three lives HUD" style="width: 120px; margin-left: 5px;">
+    <img src="images/icespike.png" alt="Three lives HUD" style="width: 250px; margin-left: 5px;">
     </div>
   
 </li>
@@ -123,9 +123,9 @@ The primary goals of Sproutcast were to design interactive and strategic gamepla
           In the forest biome, the only way to build is by using 'E'. There is a snapping feature implemented when building horizontally, so visually there are little to no gaps. That way, it still becomes possible to jump over a possible gap that may occur when objects start disappearing. There is also a snapRange I used, which is the maximum amount of distance that the player has to be at the edge of an object in order to continue snapping across. I had to keep track of each object that is currently being grabbed in order to snap the next object next to the previous one. On the other hand, the snow biome requires using 'W' to build upwards like a staircase. There is no snapping involved, but gaps will be visually bigger when objects disappear. If objects are placed in a way that obstructs the player's original path, they must find a way to use the new path and continue. The two different paths prevent repetition between levels.
        </p>
        <div>
-    <img src="images/horizontal.png" alt="Three lives HUD" style="width: 120px; margin-left: 5px;">
+    <img src="images/horizontal.png" alt="Three lives HUD" style="width: 250px; margin-left: 5px;">
             
-    <img src="images/stairs.png" alt="Three lives HUD" style="width: 120px; margin-left: 5px;">
+    <img src="images/stairs.png" alt="Three lives HUD" style="width: 250px; margin-left: 5px;">
     </div>
 </ul>
 
