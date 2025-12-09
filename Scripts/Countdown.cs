@@ -1,34 +1,47 @@
-
 using UnityEngine;
-    using TMPro;
+using TMPro;
 
-    public class Countdown : MonoBehaviour
+public class Countdown : MonoBehaviour
+{
+    public TMP_Text timerText;
+    public float countdownTime = 90f; // seconds
+    private float currentTime;
+    private PlayerRespawn respawn;
+
+    void Start()
     {
-        public TMP_Text timerText;
-        public float countdownTime = 60f; // seconds
+        currentTime = countdownTime;
+        respawn = PlayerRespawn.FindFirstObjectByType<PlayerRespawn>();
+    }
 
-        void Update()
+    void Update()
+    {
+        Tick(Time.deltaTime);
+    }
+
+    public void Tick(float deltaTime)
+    {
+        if (currentTime > 0)
         {
-            Tick(Time.deltaTime);
+            currentTime -= deltaTime;
+            if (currentTime < 0) currentTime = 0;
+
+            float minutes = Mathf.Floor(currentTime / 60);
+            float seconds = Mathf.Floor(currentTime % 60);
+            if (timerText != null)
+                timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
         }
-
-        // Make a public method for testing
-        public void Tick(float deltaTime)
+        else
         {
-            if (countdownTime > 0)
-            {
-                countdownTime -= deltaTime;
-                if (countdownTime < 0) countdownTime = 0;
+            if (timerText != null)
+                timerText.text = "00:00";
 
-                float minutes = Mathf.Floor(countdownTime / 60);
-                float seconds = Mathf.Floor(countdownTime % 60);
-                if ((object)timerText != null)
-                    timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
-            }
-            else
+            // Respawn player and reset timer
+            if (respawn != null)
             {
-                if ((object)timerText != null)
-                    timerText.text = "00:00";
+                respawn.Respawn();
+                currentTime = countdownTime; // reset to 1:30
             }
         }
     }
+}

@@ -1,31 +1,22 @@
+
 using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
     public float speed = 5f;
     private Rigidbody2D rb;
-    private InputSystemActions _inputActions;
-    private Vector2 _moveInput;
     private Animator animator;
     private bool facingRight = true;
     private Jump jump;
 
-    private void Awake()
-    {
-        _inputActions = new InputSystemActions();
-        _inputActions.Player.Move.performed += ctx => _moveInput = ctx.ReadValue<Vector2>();
-        _inputActions.Player.Move.canceled += ctx => _moveInput = Vector2.zero;
-    }
+    public float mushroomSpeed = 7f;
+    public float woodSpeed = 3f;
+    public float bushSpeed = 4f;
+    public float iceshard = 7f;
+    public float glacier = 3f;
+    public float icechunk = 4f;
 
-    private void OnEnable()
-    {
-        _inputActions.Enable();
-    }
-
-    private void OnDisable()
-    {
-        _inputActions.Disable();
-    }
+    private string carryingType = "none";
 
     private void Start()
     {
@@ -35,14 +26,16 @@ public class Movement : MonoBehaviour
     }
 
     private void Update()
-    {  
-        _moveInput = _inputActions.Player.Move.ReadValue<Vector2>();
-        float horizontal = _moveInput.x;
+    {
+        float horizontal = 0f;
 
-        // Apply horizontal movement
+        if (Input.GetKey(KeyCode.LeftArrow))
+            horizontal = -1f;
+        else if (Input.GetKey(KeyCode.RightArrow))
+            horizontal = 1f;
+
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
 
-        // Flip sprite
         if ((facingRight && horizontal < 0f) || (!facingRight && horizontal > 0f))
         {
             facingRight = !facingRight;
@@ -51,8 +44,38 @@ public class Movement : MonoBehaviour
             transform.localScale = scale;
         }
 
-        // Animation
         bool isRunning = Mathf.Abs(horizontal) > 0.1f && jump.Grounded();
         animator.SetBool("isRunning", isRunning);
+    }
+    public void SetCarryingType(string type)
+    {
+        carryingType = type;
+
+        switch (type)
+        {
+            case "Mushroom":
+                speed = mushroomSpeed;
+                break;
+
+            case "Wood":
+                speed = woodSpeed;
+                break;
+
+            case "Bush":
+                speed = bushSpeed;
+                break;
+            case "icechunk":
+                speed = icechunk;
+                break;
+            case "glacier":
+                speed = glacier;
+                break;
+            case "iceshard":
+                speed = iceshard;
+                break;
+            default:
+                speed = 5f;  
+                break;
+        }
     }
 }

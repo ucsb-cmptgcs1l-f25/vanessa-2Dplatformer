@@ -3,14 +3,14 @@ using UnityEngine;
 public class Jump : MonoBehaviour
 {
     private Rigidbody2D rb;
-    public LayerMask groundLayer; // Layer(s) considered as ground
+    public LayerMask groundLayer;    
+ 
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     private bool isGrounded;
     public float jump;
-    private Animator animator; // Animator reference
+    private Animator animator; 
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -23,7 +23,6 @@ public class Jump : MonoBehaviour
     }
 
 
-// Update is called once per frame
     void Update()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
